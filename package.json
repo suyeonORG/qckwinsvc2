@@ -1,0 +1,30 @@
+{
+  "name": "qckwinsvc2",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "CLI tool that installs/uninstalls your NodeJS app as a windows service",
+  "author": "Suyeon <contact@suyeon.org>",
+  "keywords": [
+    "qckwinsvc2",
+    "qckwinsvc",
+    "windows",
+    "services",
+    "node-windows"
+  ],
+  "main": "src/qckwinsvc2.js",
+  "bin": "src/qckwinsvc2.js",
+  "scripts": {
+    "start": "node src/qckwinsvc2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suyeonORG/qckwinsvc2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suyeonORG/qckwinsvc2/issues"
+  },
+  "homepage": "https://github.com/suyeonORG/qckwinsvc2#readme",
+  "dependencies": {
+    "node-windows": "^1.0.0-beta.5"
+  }
+}
