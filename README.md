@@ -73,14 +73,13 @@ npm i qckwinsvc2 -g
 ```
 > qckwinsvc2 start
 [INPUT] Please provide a name for your service: Hello
-[INPUT] Please provide your script's path:  C:\index.js
 [INFO] Service Hello started.
 ```
 
 ### Non-interactively
 
 ```
-> qckwinsvc2 start name="Hello" path="C:\index.js"
+> qckwinsvc2 start name="Hello"
 [INFO] Service Hello started.
 ```
 
