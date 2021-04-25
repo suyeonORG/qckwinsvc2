@@ -61,7 +61,7 @@ npm i qckwinsvc2 -g
 ### Non-interactively
 
 ```
-> qckwinsvc uninstall name="Hello"
+> qckwinsvc2 uninstall name="Hello"
 [INFO] Service Hello stopped.
 [INFO] Service Hello uninstalled.
 ```
@@ -80,7 +80,7 @@ npm i qckwinsvc2 -g
 ### Non-interactively
 
 ```
-> qckwinsvc start name="Hello" path="C:\index.js"
+> qckwinsvc2 start name="Hello" path="C:\index.js"
 [INFO] Service Hello started.
 ```
 
