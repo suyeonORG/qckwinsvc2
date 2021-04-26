@@ -19,7 +19,7 @@ var args;
 var start = false;
 var command = process.argv[2];
 
-const version = '1.0.0';
+const version = '1.0.1';
 
 var config = [];
 
@@ -58,7 +58,8 @@ if (command === '--help') {
     \ninstall: installs a new service (name, path and description required)
     \nuninstall: uninstalls a new service (name and path required)
     \nstart: starts a service
-    \nstop: stops a service`
+    \nstop: stops a service
+    \nlist: lists all installed services`
     console.log(helper);
     process.exit(0);
 }
@@ -162,7 +163,8 @@ function bindEvents(svc) {
         process.exit(0);
     })
     svc.on('stop', function () {
-        console.log(`[INFO] Service ${name} stopped.`)
+        console.log(`[INFO] Service ${name} stopped.`);
+        if (command === 'stop') process.exit(0);
     })
     svc.on('error', function () {
         console.error('[ERROR] An error occurred!');
