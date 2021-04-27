@@ -1,6 +1,6 @@
 {
   "name": "qckwinsvc2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "CLI tool that installs/uninstalls your NodeJS app as a windows service",
   "author": "Suyeon <contact@suyeon.org>",

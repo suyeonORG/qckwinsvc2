@@ -13,6 +13,7 @@ Special thanks to [tallesl](https://github.com/tallesl)
 Made with ♡ by Suyeon® feel free to download, modify or publish this code as you want.
 
 Visit [suyeon.org](https://suyeon.org) for more information.
+
 ## Setup
 
 ```
@@ -20,10 +21,12 @@ npm i qckwinsvc2 -g
 ```
 
 # Table of Contents
+
 1. [Installing your service](#installing-your-service)
 2. [Uninstalling your service](#uninstalling-your-service)
 3. [List installed services](#list-installed-services)
-4. [Disclaimer](#disclaimer)
+4. [Start/Stop services](#start-and-stop-your-service)
+5. [Disclaimer](#disclaimer)
 
 ## Installing your service
 
@@ -42,7 +45,7 @@ npm i qckwinsvc2 -g
 ### Non-interactively
 
 ```
-> qckwinsvc2 install name="Hello" description="World" path="C:\index.js" options="-a -c" now
+> qckwinsvc2 install name="Hello" description="World" path="C:\index.js" args="-a -c" now
 [INFO] Service Hello installed.
 [INFO] Service Hello started.
 ```
@@ -66,7 +69,7 @@ npm i qckwinsvc2 -g
 [INFO] Service Hello uninstalled.
 ```
 
-## Start/stop your service
+## Start and stop your service
 
 ### Interactively
 
@@ -93,6 +96,7 @@ npm i qckwinsvc2 -g
 ```
 
 ## Disclaimer
+
 <img src="suyeon.png" alt="drawing" width="64"/>
 
 Made with ♡ by Suyeon® feel free to download, modify or publish this code as you want.
